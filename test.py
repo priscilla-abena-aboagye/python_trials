@@ -41,4 +41,13 @@ min_num = a if a < b else b
 print(max_num, min_num)
 print(status)
 
-name = input("Enter your full name")
+name = input("Enter your full name: ")
+result = len(name)
+null = name.find("b")
+last = name.rfind("c")
+name = name.capitalize()
+
+print(result)
+print(null)
+print(last)
+print(name)
