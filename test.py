@@ -67,7 +67,26 @@ print(space)
 
 
 username = input("Enter a username: ")
+
 if len(username) > 12:
     print("Your username can not be more than 12 characters")
+elif not username.find(" ") == -1:
+    print("Your username can not contain spaces")
+elif not username.isalpha():
+    print("Your username should not contain numbers")
 else:
     print(f"Welcome {username}")
+
+
+credit_number = "1234-2342-3564-5667-3444"
+last_digit = credit_number[-4:]
+print(credit_number[2])
+print(credit_number[0:4])
+print(credit_number[:4])
+print(credit_number[5:9])
+print(credit_number[5:])
+print(credit_number[-1])
+print(credit_number[::3])
+print(credit_number[::-1])
+print(last_digit)
+
