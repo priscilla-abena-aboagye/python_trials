@@ -42,12 +42,32 @@ print(max_num, min_num)
 print(status)
 
 name = input("Enter your full name: ")
+phone_number = input("Enter your phone number: ")
 result = len(name)
 null = name.find("b")
 last = name.rfind("c")
 name = name.capitalize()
+upper = name.upper()
+lower = name.lower()
+number = name.isdigit()
+master = name.isalpha()
+phone = phone_number.count("-")
+space = phone_number.replace("-", " ")
 
 print(result)
 print(null)
 print(last)
 print(name)
+print(upper)
+print(lower)
+print(number)
+print(phone)
+print(space)
+
+
+
+username = input("Enter a username: ")
+if len(username) > 12:
+    print("Your username can not be more than 12 characters")
+else:
+    print(f"Welcome {username}")
