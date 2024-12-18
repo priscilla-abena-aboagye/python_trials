@@ -90,3 +90,41 @@ print(credit_number[::3])
 print(credit_number[::-1])
 print(last_digit)
 
+
+
+price1 = 30200202.14159
+price2 = -967.44
+price3 = 12.455
+print(f"Price 1 is ${price1:+,.2f}")
+print(f"Price 2 is ${price2:+}")
+print(f"Price 3 is ${price3:.2f}")
+
+myName = input("Enter your name: ")
+
+
+while myName == "":
+    print("You did not enter your name")
+    myName = input("Enter your name: ")
+print(f"Hello {myName}")
+
+myAge = input("Enter your age: ")
+
+
+while myAge == "":
+    print("You did not enter your age")
+    myAge = int(input("Enter your age: "))
+print(f"You are {myAge} yrs old")
+
+food = input("Enter a food you like (press q to quit): ")
+
+while not food == "q":
+    print(f"You like {food}")
+    food = input("Enter a another food you like (press q to quit): ")
+
+print("Bye")
+
+
+
+
+
+
