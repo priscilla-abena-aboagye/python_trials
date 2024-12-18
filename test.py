@@ -198,6 +198,16 @@ for x in range(rows):
         print(y, end=" ")
     print()
 
+fruits = ["apple", "mango", "banana", "orange"]
+
+
+fruits[0] = "pineapple"
+fruits.append("cherry")
+fruits.insert(1, "grapes")
+fruits.sort()
+fruits.reverse()
+print(fruits)
+
 
 
 
