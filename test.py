@@ -189,4 +189,19 @@ for x in range(3):
         print(y, end=" ")
     print()
 
+rows = int(input("Enter the number of rows: "))
+columns = int(input("Enter the number of columns: "))
+symbol = input("Enter the symbol to use: ")
+
+for x in range(rows):
+    for y in range(columns):
+        print(y, end=" ")
+    print()
+
+
+
+
+
+
+
 
