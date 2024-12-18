@@ -124,6 +124,45 @@ while not food == "q":
 print("Bye")
 
 
+number1 = int(input("Enter a number between 1 - 10: "))
+
+while number1 < 1 or number1 > 10:
+    print(f"{number1} is not valid")
+    number1 = int(input("Enter a number between 1 - 10: "))
+
+print(f"Your number is {number1}")
+
+principle = 0
+rate = 0
+time = 0
+
+while True:
+    principle = float(input("Enter the principle: "))
+    if principle < 0:
+        print("Principle cannot be less than zero")
+    else:
+        break
+
+
+while True:
+    rate = float(input("Enter the interest rate: "))
+    if rate < 0:
+        print("Rate cannot be less than zero")
+    else:
+        break
+
+while True:
+    time = int(input("Enter the interest time: "))
+    if time < 0:
+        print("time cannot be less than zero")
+    else:
+        break
+
+
+interest = principle * (1 + (rate / 100)) ** time
+print(f"Balance after {time} year/s: ${interest:,.2f}")
+
+
 
 
 
