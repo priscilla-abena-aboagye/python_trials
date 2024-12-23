@@ -248,4 +248,26 @@ print(groceries[0][0])
 
 
 
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list3 = [7, 8, 9]
+list4 = ["*", 0, "#"]
+
+num_pad = [
+    list1,
+    list2,
+    list3,
+    list4
+]
+
+for every_list in num_pad:
+    for row in every_list:
+        print(row, end=" ")
+    print()
+
+
+
+
+
+
 
