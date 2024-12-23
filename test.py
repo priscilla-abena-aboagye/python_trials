@@ -235,6 +235,15 @@ print(f"Your total is $ {total}")
 
 
 
+meats =      ["chicken", "fish", "turkey"]
+vegetables = ["carrot", "green pepper", "cabbage"]
+plastics =   ["bag", "rubber", "bowl", "spoon"]
+
+groceries = [meats, vegetables, plastics]
+print(groceries[0][0])
+
+
+
 
 
 
