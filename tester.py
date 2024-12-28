@@ -48,3 +48,23 @@ print()
 
 score = int(score / len(questions) * 100)
 print(f"Your score is : {score}%")
+
+
+
+capitals = {"USA": "Washington D.C",
+            "India": "New Delhi",
+            "Ghana": "Acrra",
+            "Korea": ""}
+if capitals.get("USA"):
+    print("The capital exit")
+else:
+    print("The capital does not exit")
+
+capitals.update({"Japan": "Tokyo",
+                 "Germany": "Berlin"})
+capitals.pop("Ghana")
+capitals.popitem()
+
+print(capitals)
+
+
